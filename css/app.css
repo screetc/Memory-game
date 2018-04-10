@@ -1,0 +1,207 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff url("../img/geometry2.png"); /* Background pattern from Subtle Patterns */
+    font-family: "Coda", cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Gugi", cursive;
+    font-weight: 300;
+    color: #02abcc;
+}
+
+/*
+ * Styles for the deck of cards
+ */
+.deck {
+    width: 660px;
+    min-height: 680px;
+    background: linear-gradient(160deg, #0019ffcf 0%, #ef069ceb 100%);
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3em;
+}
+
+.deck .card {
+    height: 125px;
+    width: 125px;
+    background: #00ffa3;
+    font-size: 0;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.deck .card.open {
+    transform: rotateY(0);
+    -webkit-transform: rotateY(0);
+    background: #02b9e4;
+    cursor: default;
+}
+
+.deck .card.show {
+    font-size: 60px;
+}
+
+.deck .card.match {
+    cursor: default;
+    background: #e4d402;
+    font-size: 60px;
+}
+
+.deck .card.unmatched {
+    background: #f00;
+    cursor: default;
+}
+
+.deck .card.disabled {
+	pointer-events: none;
+}
+
+/*
+ * Styles for the Score Panel
+ */
+.score-panel {
+    text-align: left;
+    width: 345px;
+    margin-bottom: 10px;
+}
+
+.fa-star {
+	color: #f68900;
+  font-size: 22px;
+}
+
+.score-panel .stars {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+}
+
+.score-panel .restart {
+    float: right;
+    cursor: pointer;
+}
+
+/*timer*/
+.timer {
+	display: inline-block;
+	margin: 2px;
+  padding-left: 20px;
+}
+
+/* Styles for wellDone popup*/
+.message {
+  text-align: center;
+	position: fixed;
+  background: rgba(0, 0, 255, 0.3);
+  transition: opacity 400ms;
+  visibility: hidden;
+  opacity: 0;
+	left: 0;
+	right: 0;
+}
+
+.show-popup {
+	margin: 70px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	width: 75%;
+	position: relative;
+}
+
+h2 {
+	font-family: "Jua", sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+	font-family: "Coda", cursive;
+  margin: 0;
+}
+
+.show-popup .close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	-webkit-transition: all 200ms;
+  transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+.show-popup,
+.stats {
+	max-height: 50%;
+	overflow: auto;
+	text-align: center;
+}
+
+.show {
+	visibility: visible;
+	opacity: 100;
+}
+
+#starRate li {
+	display: inline-block;
+}
+
+#play-again {
+  background-color:#55acee;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+	padding: 8px;
+	font-size: 25px;
+	display: block;
+	margin: auto;
+	width: auto;
+  font-family: "Gugi", cursive;
+}
+
+#play-again:hover {
+  background-color: #6fC6ff;
+}
