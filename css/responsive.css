@@ -1,0 +1,333 @@
+@media screen and (max-width: 320px) {
+
+  .score-panel {
+    width: 90%;
+  }
+
+  .score-panel .stars {
+    margin: 0 1px 0 0;
+  }
+
+  .timer {
+    padding-left: 10px;
+  }
+
+  .fa-repeat {
+    font-size: 30px;
+  }
+
+  .deck {
+    width: 90%;
+    min-height: 305px;
+    padding: 12px;
+  }
+
+  .deck .card {
+    height: 57px;
+    width: 57px;
+  }
+
+  .deck .card.show {
+    font-size: 35px;
+  }
+
+  .deck .card.match {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 359px) {
+
+  .deck {
+    width: 90%;
+    min-height: 340px;
+    padding: 10px;
+  }
+
+  .deck .card {
+    height: 60px;
+    width: 60px;
+  }
+
+  .deck .card.show {
+    font-size: 40px;
+  }
+
+  .deck .card.match {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+
+  .score-panel {
+    width: 85%;
+  }
+
+  .fa-repeat {
+    font-size: 25px;
+  }
+
+  .deck {
+    width: 90%;
+    min-height: 340px;
+    padding: 15px;
+    border-radius: 7px;
+  }
+
+  .deck .card {
+    height: 63px;
+    width: 63px;
+  }
+
+  .deck .card.show {
+    font-size: 40px;
+  }
+
+  .deck .card.match {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 383px) {
+
+  .score-panel {
+    width: 80%;
+  }
+
+  .timer {
+    padding-left: 15px;
+  }
+
+  .fa-repeat {
+    font-size: 30px;
+  }
+
+  .deck {
+    width: 90%;
+    min-height: 355px;
+    padding: 16px;
+  }
+
+  .deck .card {
+    height: 65px;
+    width: 65px;
+  }
+
+  .deck .card.show {
+    font-size: 40px;
+  }
+
+  .deck .card.match {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 384px) and (max-width: 410px) {
+
+  .score-panel {
+    width: 80%;
+  }
+
+  .fa-repeat {
+    font-size: 25px;
+  }
+
+  .deck {
+    width: 90%;
+    min-height: 360px;
+    padding: 16px;
+  }
+
+  .deck .card {
+    height: 67px;
+    width: 67px;
+  }
+
+  .deck .card.show {
+    font-size: 40px;
+  }
+
+  .deck .card.match {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 414px) {
+
+  .fa-repeat {
+    font-size: 30px;
+  }
+
+  .deck {
+    width: 90%;
+    min-height: 390px;
+    padding: 18px;
+  }
+
+  .deck .card {
+    height: 72px;
+    width: 72px;
+  }
+
+  .deck .card.show {
+    font-size: 45px;
+  }
+
+  .deck .card.match {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 480px) {
+
+  body {
+    font-size: 20px;
+  }
+
+  .score-panel {
+    width: 80%;
+  }
+
+.fa-repeat {
+    font-size: 35px;
+  }
+
+  .deck {
+    width: 90%;
+    min-height: 450px;
+    padding: 20px;
+  }
+
+  .deck .card {
+    height: 85px;
+    width: 85px;
+  }
+
+  .deck .card.show {
+    font-size: 50px;
+  }
+
+  .deck .card.match {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+
+  body {
+    font-size: 25px;
+  }
+
+  .score-panel {
+    width: 80%;
+  }
+
+  .fa-star {
+    font-size: 25px;
+  }
+
+  .fa-repeat {
+    font-size: 35px;
+  }
+
+  .deck {
+    width: 90%;
+    min-height: 560px;
+    padding: 25px;
+    border-radius: 10px;
+  }
+
+  .deck .card {
+    height: 105px;
+    width: 105px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+
+  .deck {
+    width: 90%;
+    min-height: 560px;
+  }
+
+  .deck .card {
+    height: 105px;
+    width: 105px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+
+  body {
+    font-size: 25px;
+  }
+
+  .score-panel {
+    width: 80%;
+  }
+
+  .fa-star {
+    font-size: 40px;
+  }
+
+  .timer {
+    padding-left: 85px;
+  }
+
+  .fa-repeat {
+    font-size: 45px;
+  }
+
+  .deck .card.show {
+    font-size: 75px;
+  }
+
+  .deck .card.match {
+    font-size: 75px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 800px) {
+
+  .deck {
+    width: 90%;
+    min-height: 750px;
+  }
+
+  .deck .card {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+
+  body {
+    font-size: 35px;
+  }
+
+  .score-panel {
+    width: 60%;
+  }
+
+.fa-star {
+    font-size: 40px;
+  }
+
+.timer {
+    padding-left: 35px;
+  }
+
+.fa-repeat {
+    font-size: 45px;
+  }
+
+  .deck .card.show {
+    font-size: 75px;
+  }
+
+  .deck .card.match {
+    font-size: 75px;
+  }
+}
