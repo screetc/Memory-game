@@ -39,6 +39,7 @@ h1 {
  */
 .deck {
     width: 660px;
+    max-width: 100%;
     min-height: 680px;
     background: linear-gradient(160deg, #0019ffcf 0%, #ef069ceb 100%);
     padding: 32px;
@@ -54,6 +55,7 @@ h1 {
 .deck .card {
     height: 125px;
     width: 125px;
+    max-width: 100%;
     background: #00ffa3;
     font-size: 0;
     color: #fff;
