@@ -1,5 +1,13 @@
 @media screen and (max-width: 320px) {
 
+  h2 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
   .score-panel {
     width: 90%;
   }
@@ -59,6 +67,14 @@
 }
 
 @media screen and (min-width: 360px) and (max-width: 374px) {
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
 
   .score-panel {
     width: 85%;
