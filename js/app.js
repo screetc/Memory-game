@@ -71,14 +71,14 @@ function moveCounter() {
     startTimer();
   }
 // star rating changes depending on the number of moves
-  if(moves>9 && moves <14) {
+  if(moves >13 && moves <=16) {
     for (let i = 0; i < 3; i++) {
       if(i>1) {
         stars[i].style.visibility = "collapse";
       }
     }
   }
-  else if (moves> 16) {
+  else if (moves >16) {
     for (let i = 0; i < 3; i++) {
       if (i>0) {
         stars[i].style.visibility = "collapse";
