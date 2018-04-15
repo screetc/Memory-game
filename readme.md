@@ -13,4 +13,9 @@ In how many moves will you be able to finish the game? And how long will you tak
 If you want all three gold stars, you should be finish it in less than 13 moves!
 Come on, play it!
 
-This game use jQuery
+# Code depencies
+1. Font-awesome - For icons of the game
+2. Gooogle Fonts - For fonts of the game
+3. app.css - The style for the game
+4. responsive.css - Style to make the game readble for all devices
+5. app.js - Javascript file to run the game 
