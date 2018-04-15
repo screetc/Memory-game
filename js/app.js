@@ -122,7 +122,7 @@ function cardFlipped() {
       unmatched();
     }
   }
-};
+}
 //function for 2 match card
 function matched() {
   openedCards[0].classList.add("match", "disabled");
@@ -178,7 +178,7 @@ function wellDone() {
     document.getElementById("starRate").innerHTML = starRate;
     document.getElementById("totalTime").innerHTML = finalTime;
     closeModal();
-  };
+  }
 }
 // play again function
 function playAgain() {
@@ -191,4 +191,4 @@ for (let i = 0; i < cards.length; i++) {
   card.addEventListener("click", displayCard);
   card.addEventListener("click", cardFlipped);
   card.addEventListener("click", wellDone);
-};
+}
